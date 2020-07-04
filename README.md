@@ -21,17 +21,24 @@ cd dna-sequence-kernels
 then run the python command in your terminal;
 
 ```python
-python MAIN_SCRIPT
+python MAIN_SCRIPT.py
 ```
+
+This builds the kernels used and run the code for predictions. On your first run, you may need to wait for some minutes to build the kernel. Subsequent runs will be faster.
 
 ## Overview
 
-A `PRESENTATION.pdf` file can be found in the repository which summarizes our findings during the project.
+Spectrum kernel and Weighted degree kernel were used for this project. The weighted degree kernel gave better results as seen in our reports. A `PRESENTATION.pdf` file can be found in the repository which summarizes our findings during the project.
+
+Algorithms
+
+- Kernel Logistic Regression
+- Kernel Ridge Regression
+- Kernel SVM
 
 ## Challenges
 
 - The number of examples in the dataset was small which could give room for overfitting. We countered this by cross-validating our experiments.
 - Also, kernels work in a large dimensional space which implies that regularization is a very important aspect of the algorithm.
 
-## License
-[MIT](https://choosealicense.com/licenses/mit/)
+Enjoy.
