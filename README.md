@@ -11,7 +11,7 @@ The `MAIN_SCRIPT` file is the starting point in the code. It imports other funct
 Clone the repository using the following command;
 
 ```shell
-git clone https://github.com/ogunlao/dna-sequence-kernels
+git clone https://github.com/ogunlao/dna-sequence-kernels.git
 ```
 
 ```shell
